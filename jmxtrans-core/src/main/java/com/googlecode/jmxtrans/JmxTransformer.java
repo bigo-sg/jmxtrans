@@ -178,7 +178,7 @@ public class JmxTransformer implements WatchedCallback {
 			try {
 				this.serverScheduler.start();
 
-				this.startupWatchdir();
+				//this.startupWatchdir();
 
 				this.startupSystem();
 
